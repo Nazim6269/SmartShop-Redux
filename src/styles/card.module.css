@@ -1,0 +1,38 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px 20px;
+  padding: 1rem 5rem;
+}
+
+.card {
+  width: 20rem;
+  height: auto;
+  border: 2px solid #f4f2de;
+  transition: 0.8s ease all;
+  box-shadow: 5px 5px 8px 0px #888888;
+}
+
+.card:hover {
+  transform: scale(0.9);
+  box-shadow: 5px 5px 8px 0px #7c9d96, -5px -5px 8px 2px #7c9d96;
+}
+
+.image {
+  height: 300px;
+  width: auto;
+}
+
+.text {
+  padding: 1rem 3rem;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 8px 20px;
+  border: none;
+  letter-spacing: 0.9px;
+  font-weight: bold;
+  background-color: #7c9d96;
+  transition: 0.5s ease all;
+}
